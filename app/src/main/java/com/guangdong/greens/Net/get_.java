@@ -46,51 +46,6 @@ public class get_ extends Thread {
 
     }
 
-    public void initlrucache() {//TODO 初始化一个缓冲区
-        int maxMemory = (int) Runtime.getRuntime().maxMemory();
-        int cacheSize = maxMemory / 4;//指定使用可用内存4分之1
-        lruCache = new LruCache<String, Bitmap>(cacheSize) {
-            @Override
-            protected int sizeOf(String key, Bitmap value) {
-                //在每次存入缓存时调用，返回一个bitmap正确大小
-                return value.getByteCount();
-            }
-        };//初始化缓存区
-    }
-
-
-    private void addimg() {
-
-        new Thread() {
-            @Override
-            public void run() {
-                super.run();
-                Bitmap bitmap = null;
-                try {
-                    URL url = new URL(imgurl);
-
-                    HttpURLConnection conn = (HttpURLConnection) url
-                            .openConnection();
-                    conn.setDoInput(true);
-                    conn.connect();
-                    InputStream is = new BufferedInputStream(conn.getInputStream());
-                    bitmap = BitmapFactory.decodeStream(is);
-                    is.close();
-                    conn.disconnect();
-
-                } catch (IOException e) {
-                    Log.e("联网或图片加载失败", e.toString());
-                }
-                if (bitmap != null) {
-                    Message msg = Message.obtain();
-                    msg.obj = bitmap;
-                    msg.what = 3;
-
-                }
-            }
-        }.start();
-    }
-
     public void GetGridViewImg(final HashMap<String, Object> map) {
         headimg = (ImageView) map.get("image");
         Bitmap bitmap = (Bitmap) lruCache.get(map.get("path").toString());

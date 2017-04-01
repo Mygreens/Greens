@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:paddingBottom="20dp"
+    >
+
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="200dp"
             android:id="@+id/Graphic_steps_img"
+            android:src="@mipmap/ic_launcher"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="萨达萨达撒萨达萨达撒萨达萨达撒"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
             android:id="@+id/Graphic_steps_txt"
             />
-    </LinearLayout>
 </LinearLayout>
