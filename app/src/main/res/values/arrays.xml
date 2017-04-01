@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>实用</item>
+        <item>硬件 </item>
+        <item>办公</item>
+        <item>饮食</item>
+        <item>运动</item>
+    </string-array>
+    <string-array name="languages1">
+        <item>衣物保洁</item>
+        <item>硬件 </item>
+        <item>办公</item>
+        <item>饮食</item>
+        <item>运动</item>
+    </string-array>
+    <string-array name="languages2">
+        <item>实用</item>
+        <item>硬件 </item>
+        <item>办公</item>
+        <item>饮食</item>
+        <item>运动</item>
+    </string-array>
+</resources>
