@@ -65,11 +65,14 @@ public class Detail_ extends AppCompatActivity {
                 for (int i = start; i <= end; i++) {
                     boolean is = GraphicLists.get(i).containsKey("image");
 
-                    if (is==true) {
+                    if (is == true) {
 
                         String path = GraphicLists.get(i).get("image").toString();
+                        HashMap<String, Object> map = new HashMap<String, Object>();
+                        map.put("?", "");
+                        map.put("path", path);
                         ImageView img = (ImageView) Graphic_steps_ry.findViewWithTag(path);
-                        Bitmap bitmap = lruCache.checkLucache(path);
+                        Bitmap bitmap = lruCache.checkLucache(map);
                         img.setImageBitmap(bitmap);
                     }
                 }
@@ -88,22 +91,22 @@ public class Detail_ extends AppCompatActivity {
     }
 
     private void loadGraphic() {
-        HashMap<String, Object> map = new HashMap<>();
-        map.put("layout", 0);
-        map.put("image", "http://pic10.nipic.com/20100929/4308872_150108084472_2.jpg");
-        map.put("text", "硬件方面的信息，你可以学到如何用一个硬件来和这个世界任何其他物质拼接成对人有巨大帮助的器械＆＆工具");
-        GraphicLists.add(map);
-
-        lruCache.checkLucache("http://pic10.nipic.com/20100929/4308872_150108084472_2.jpg");
-        HashMap<String, Object> map1 = new HashMap<>();
-        map1.put("layout", 0);
-        map1.put("image", "http://scimg.jb51.net/allimg/151228/14-15122Q60431W4.jpg");
-        map1.put("text", "硬件方面的信息，你可以学到如何用一个硬件来和这个世界任何其他物质拼接成对人有巨大帮助的器械＆＆工具");
-        GraphicLists.add(map1);
-        lruCache.checkLucache("http://pic10.nipic.com/20100929/4308872_150108084472_2.jpg");
-        HashMap<String, Object> map2 = new HashMap<>();
-        map2.put("layout", 2);
-        GraphicLists.add(map2);
+//        HashMap<String, Object> map = new HashMap<>();
+//        map.put("layout", 0);
+//        map.put("image", "http://pic10.nipic.com/20100929/4308872_150108084472_2.jpg");
+//        map.put("text", "硬件方面的信息，你可以学到如何用一个硬件来和这个世界任何其他物质拼接成对人有巨大帮助的器械＆＆工具");
+//        GraphicLists.add(map);
+//
+//        lruCache.checkLucache("http://pic10.nipic.com/20100929/4308872_150108084472_2.jpg");
+//        HashMap<String, Object> map1 = new HashMap<>();
+//        map1.put("layout", 0);
+//        map1.put("image", "http://scimg.jb51.net/allimg/151228/14-15122Q60431W4.jpg");
+//        map1.put("text", "硬件方面的信息，你可以学到如何用一个硬件来和这个世界任何其他物质拼接成对人有巨大帮助的器械＆＆工具");
+//        GraphicLists.add(map1);
+//        lruCache.checkLucache("http://pic10.nipic.com/20100929/4308872_150108084472_2.jpg");
+//        HashMap<String, Object> map2 = new HashMap<>();
+//        map2.put("layout", 2);
+//        GraphicLists.add(map2);
 
         add();
         add();
@@ -113,20 +116,22 @@ public class Detail_ extends AppCompatActivity {
 
 
     }
-private void add(){
 
-    HashMap<String, Object> map3 = new HashMap<>();
-    map3.put("layout", 1);
-    GraphicLists.add(map3);
+    private void add() {
 
-}
+        HashMap<String, Object> map3 = new HashMap<>();
+        map3.put("layout", 1);
+        GraphicLists.add(map3);
+
+    }
+
     private void loadComment() {
         HashMap<String, Object> map = new HashMap<>();
-        map.put("text", "这非常有用，如果你不想默默无闻的过完一生，也不想整天思考明天要做什么的话，可以学学");
+        map.put("text", "这非常有用，贝爷荒野求生，可以学学");
         GraphicLists.add(map);
 
         HashMap<String, Object> map1 = new HashMap<>();
-        map1.put("text", "这非常有用，如果你不想默默无闻的过完一生，也不想整天思考明天要做什么的话，可以学学");
+        map1.put("text", "这非常有用，生活用品");
         GraphicLists.add(map1);
     }
 

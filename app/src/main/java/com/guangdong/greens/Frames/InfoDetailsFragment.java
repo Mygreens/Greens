@@ -34,6 +34,6 @@ public class InfoDetailsFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
 
         mRecyclerView.setLayoutManager(new LinearLayoutManager(mRecyclerView.getContext()));
-        mRecyclerView.setAdapter(new RecyclerViewAdapter(getActivity()));
+//        mRecyclerView.setAdapter(new RecyclerViewAdapter(getActivity()));
     }
 }

@@ -61,9 +61,23 @@
             <android.support.v7.widget.Toolbar
                 android:id="@+id/tool_bar"
                 android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                app:layout_collapseMode="pin" />
-
+                android:layout_height="40dp"
+                app:layout_collapseMode="pin" >
+                <RelativeLayout
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:id="@+id/publish"
+                    android:background="@drawable/shape_corner_select"
+                    >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="发布"
+                    />
+                </RelativeLayout>
+</android.support.v7.widget.Toolbar>
 
         </android.support.design.widget.CollapsingToolbarLayout>
 

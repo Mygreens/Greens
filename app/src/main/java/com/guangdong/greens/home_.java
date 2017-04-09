@@ -111,36 +111,36 @@ public class home_ extends Fragment {
     //分类and排序对话框
     private void upwindow() {
         //TODO 下拉选项表格
-        RecyclerView window_ry;
-        RecyclerViewAdapter window_adapter;
-        ArrayList<HashMap<String, String>> window_lists = new ArrayList<>();
-        //设置contentView
-        View contentView = LayoutInflater.from(getContext())
-                .inflate(R.layout.d_popwindow, null);
-        mPopWindow = new PopupWindow(contentView//设置上下文布局
-                , ViewGroup.LayoutParams.MATCH_PARENT//设置为布局宽度，也可以直接指定
-                , ActionMenuView.LayoutParams.WRAP_CONTENT//设置高度，同上
-                , true);//不知道
-        mPopWindow.setContentView(contentView);
-        window_ry = (RecyclerView) contentView.findViewById(R.id.window_ry);
-        HashMap<String, String> map = new HashMap<>();
-        map.put("text", "硬件");
-        window_lists.add(map);
-
-
-        //显示PopupWindow
-        View rootview = LayoutInflater.from(getContext()).inflate(R.layout.f_home_layout, null);
-        //  mPopWindow.showAtLocation(rootview, Gravity.VERTICAL_GRAVITY_MASK, 0, 0);//设置相对于布局的哪里显示
-        // mPopWindow.setAnimationStyle(R.style.AnimationPreview);
-        // 如果不设置PopupWindow的背景，无论是点击外部区域还是Back键都无法dismiss弹框。不知道是什么原因
-        mPopWindow.setBackgroundDrawable(new BitmapDrawable());
-// 设置点击窗口外边窗口消失
-        mPopWindow.setOutsideTouchable(true);
-// 设置此参数获得焦点，否则无法点击
-        mPopWindow.setFocusable(true);
-// 设置弹出框的显示位置
-        mPopWindow.showAsDropDown(v, 0, 0);
+//        RecyclerView window_ry;
+//        RecyclerViewAdapter window_adapter;
+//        ArrayList<HashMap<String, String>> window_lists = new ArrayList<>();
+//        //设置contentView
+//        View contentView = LayoutInflater.from(getContext())
+//                .inflate(R.layout.d_popwindow, null);
+//        mPopWindow = new PopupWindow(contentView//设置上下文布局
+//                , ViewGroup.LayoutParams.MATCH_PARENT//设置为布局宽度，也可以直接指定
+//                , ActionMenuView.LayoutParams.WRAP_CONTENT//设置高度，同上
+//                , true);//不知道
+//        mPopWindow.setContentView(contentView);
+//        window_ry = (RecyclerView) contentView.findViewById(R.id.window_ry);
+//        HashMap<String, String> map = new HashMap<>();
+//        map.put("text", "硬件");
+//        window_lists.add(map);
 //
+//
+//        //显示PopupWindow
+//        View rootview = LayoutInflater.from(getContext()).inflate(R.layout.f_home_layout, null);
+//        //  mPopWindow.showAtLocation(rootview, Gravity.VERTICAL_GRAVITY_MASK, 0, 0);//设置相对于布局的哪里显示
+//        // mPopWindow.setAnimationStyle(R.style.AnimationPreview);
+//        // 如果不设置PopupWindow的背景，无论是点击外部区域还是Back键都无法dismiss弹框。不知道是什么原因
+//        mPopWindow.setBackgroundDrawable(new BitmapDrawable());
+//// 设置点击窗口外边窗口消失
+//        mPopWindow.setOutsideTouchable(true);
+//// 设置此参数获得焦点，否则无法点击
+//        mPopWindow.setFocusable(true);
+//// 设置弹出框的显示位置
+//        mPopWindow.showAsDropDown(v, 0, 0);
+////
 
     }
 
@@ -157,9 +157,7 @@ public class home_ extends Fragment {
 
         @Override
         protected Void doInBackground(String... params) {
-            post_ post = new post_();
 
-            post.post_str();
 
             return null;
         }

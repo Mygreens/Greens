@@ -39,6 +39,6 @@ public class ShareFragment extends Fragment {
         LinearLayoutManager manager = new LinearLayoutManager(mRecyclerView.getContext());
         manager.setOrientation(LinearLayoutManager.HORIZONTAL);
         mRecyclerView.setLayoutManager(manager);
-        mRecyclerView.setAdapter(new RecyclerViewAdapter(getActivity()));
+//        mRecyclerView.setAdapter(new RecyclerViewAdapter(getActivity()));
     }
 }

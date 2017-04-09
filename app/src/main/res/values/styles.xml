@@ -5,7 +5,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#34A2DA</item>
         <item name="colorPrimaryDark">#1785C6</item>
-        <item name="colorAccent">#FF4081</item>
+        <item name="colorAccent">#56abe4</item>
         <item name="android:windowBackground">@android:color/white</item>
     </style>
 <style name="bottom_select">

@@ -3,30 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jar="/home/cat6572325/.android/build-cache/dc8450e31c99351ef5bc7dcf0ab7093282043a3a/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_6795b4e91f22763fe86095e82a71604527e0b0a3.jar" />
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_b6f99ec92ccd4952b80afa836eec8f8b403354e1.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.1.0_d188f669f8c8f4b035b038858c356f26ee369055.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jar="/home/cat6572325/.android/build-cache/9a7484007b27b54068a6bd8ff25840eff3255cc5/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_2f6bc9d08f4b945683dde3c03202907d127e0495.jar" />
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_c1570bdb2bfc94392c678c947df6081dee2f4f37.jar" />
     </item>
     <item
         is-multidex="false"
@@ -35,16 +26,25 @@
         optimize="true"
         revision="25.0.2"
         sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/gson-2.4_9e9cc314cf867fe8c44e36a8ac344c28268c7c5c.jar" />
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/gson-2.4_9e9cc314cf867fe8c44e36a8ac344c28268c7c5c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jar="/home/cat6572325/.android/build-cache/88af2399402d9d975146a3f8d3f2224afca25678/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_b9668907d2e0be55030d2b9ba0fc51928c94ab24.jar" />
+        sha1="c8ae6c02fe07a9c6e34741a81ba1f4d2cc62e17d">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_894ba796058e2df7e99302daa7105f4d83e3d366.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cat6572325/.android/build-cache/73eb0ee3586d6c709a3f7af74ece1844b2d26361/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_e87eca287848511796c33684b5ff5a9b1d02ee3a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -53,88 +53,97 @@
         optimize="true"
         revision="25.0.2"
         sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/okio-1.9.0_2587157e32d36738bc4e98ef78a66794da4fe744.jar" />
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/okio-1.9.0_2587157e32d36738bc4e98ef78a66794da4fe744.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jar="/home/cat6572325/Greens/app/libs/org.json.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_8c9cc8a69b69b474730e5e1b41e699c1c34d0a11.jar" />
+        sha1="4fb50781fad714570ba8529c867bb5aef5713ba1">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/org.json_46c93f3af123d888fc5d826d52b2a36b257d29af.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jar="/home/cat6572325/.android/build-cache/2f684a7df57dd86ecd3ab3805da3e78f875e529b/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_f40870eba002a1d551c20e077efce130be6c4482.jar" />
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_61d9580f60e9f6a7b67bc6161184eca96749e064.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.github.zhaokaiqiang.okhttpplus/library/1.0.0/jars/classes.jar"
+        jar="/home/cat6572325/.android/build-cache/0e45b32983c4189550caa987d72168073113cb3f/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="b92cbe0f5d4a29f84a672468e1cae8f94ffee83d">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.github.zhaokaiqiang.okhttpplus-library-1.0.0_147d616ece40488f917bda2eb8d0c74b75ebbd74.jar" />
+        sha1="cb698597bf429f71793a87217f63a28cf7de0916">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_169a4c46c3ed06a79feca939a7ead0d26c1a9626.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jar="/home/cat6572325/.android/build-cache/cdc8658aea09ff032750d2f18e6e7110fc0ed68c/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_6d8b281111e2e8134b2449283ebbcd947f17970f.jar" />
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_eb2496935749fb4f0e011e2ddc589b991b8dfaec.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jar="/home/cat6572325/.android/build-cache/bef83643caf501e08dca90ae598aa51dc1056c92/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_d568f6f1ee826f415a6f19626d85747d6fe0cfdc.jar" />
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_870ce90a249ec6b3ddeab7cb6d0cd2206984812b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/libs/okhttp-2.7.2.jar"
+        jar="/home/cat6572325/.android/build-cache/d3b4c4354452d399aef989c9984ce9ab5c6c9747/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b92cbe0f5d4a29f84a672468e1cae8f94ffee83d">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_c9b5787557290ba4bcebb3a15123a8f843fd42f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cat6572325/Greens/app/libs/okhttp-2.7.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="20f6463eb19ac61960c5d91a094c2f4f0727dc2e">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/okhttp-2.7.2_1166f8ebab0e3249e7c84823d7b2ffa64f344bc2.jar" />
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/okhttp-2.7.2_5fca355f37ba8d557f408f01840efd118587f1c9.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.zhousf.lib/okhttp3/2.5/jars/classes.jar"
+        jar="/home/cat6572325/.android/build-cache/0456eecd9de61273645927c88bfb10ddb3af0430/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c8ae6c02fe07a9c6e34741a81ba1f4d2cc62e17d">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.zhousf.lib-okhttp3-2.5_3b99dd38e263c8d93af321952566398e7d04ec5e.jar" />
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_7e3b129e84cb03c3d71d883bde80a70633897ac3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jar="/home/cat6572325/.android/build-cache/aeef81e0047320ff047a8ab32f7331ba2cbfcc60/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_82dedc1340dbddc8f8f71f7f70085f6ca0b14882.jar" />
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_72e360360275e05037d472976049fce4fca63b19.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jar="/home/cat6572325/.android/build-cache/af246d3ec055550f86d630dd6b50ed80c9b89765/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_4423efec38a7f6aa479288e7dd435472b4ed7226.jar" />
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_a97e13508325439388f68ccf0cdc4c0c0f5ea3c4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -143,43 +152,16 @@
         optimize="true"
         revision="25.0.2"
         sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_36cb7fadb674b462c13bec594cb327f5e502be96.jar" />
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_36cb7fadb674b462c13bec594cb327f5e502be96.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jar="/home/cat6572325/.android/build-cache/5d849347b25569064c1976bd844955a0282fc354/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_4a59797f6c27ec2696801f24711e33ca64015dd5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_50cbb267d2f9b93126ffc651b02d92334f459ae9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.lzy.net/okgo/2.1.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cb698597bf429f71793a87217f63a28cf7de0916">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.lzy.net-okgo-2.1.4_0cb58f7e29c1aa1818acd9e3734f8433368953b0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/libs/org.json.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4fb50781fad714570ba8529c867bb5aef5713ba1">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/org.json_8e19be8c0c9bdf8766ec6c1853f7fcd794e8c5af.jar" />
+        sha1="379d026596d204cf421ba7b918e8195a659089ce">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_a91ec5fbeeecff62109bc90682ac5c728238c020.jar" />
     </item>
     <item
         is-multidex="false"
@@ -188,25 +170,43 @@
         optimize="true"
         revision="25.0.2"
         sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_a242d0ef3a5b286cc6aebbe25d20199e1ec432c7.jar" />
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_a242d0ef3a5b286cc6aebbe25d20199e1ec432c7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jar="/home/cat6572325/.android/build-cache/4101b146484fe974278290bd566e6d3b152fc60f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_81fe3633c3f2bd8f50913188ed78c6c8009afe7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cat6572325/.android/build-cache/b9d6d9bcd50363f5f326ec1b7b85ee977348bf54/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_cce151a4ad797c3e2316dc9ba489839cdbf7d340.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cat6572325/.android/build-cache/3c91f58027f890734ef32314e6b414d128f2e396/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_cb21bf0f992c6eb4a4fc843ca49c3ac65cef3845.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cat6572325/.android/build-cache/737dd4d9e94d648145aa7bb745b4252758e7773a/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_c8545e94ec2e1837bb70ccaef0e54a515c2e51cd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/exploded-aar/com.lzy.net/okserver/1.1.3/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="379d026596d204cf421ba7b918e8195a659089ce">
-        <dex dex="/home/cat6572325/AndroidStudioProjects/Greens/app/build/intermediates/pre-dexed/debug/com.lzy.net-okserver-1.1.3_8669c2b1dc63ac946192b8359b91066a5bdd7720.jar" />
+        <dex dex="/home/cat6572325/Greens/app/build/intermediates/pre-dexed/debug/classes_436c15cddf858de3cf701987858486fe624900ed.jar" />
     </item>
 
 </items>

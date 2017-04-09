@@ -55,6 +55,7 @@
                 android:background="@drawable/history_select"
                 />
         </RelativeLayout>
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -94,8 +95,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/bottom_menu"
-        android:id="@+id/frame"
-        >
-
+        android:id="@+id/frame">
     </FrameLayout>
 </RelativeLayout>
